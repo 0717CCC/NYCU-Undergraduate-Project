@@ -1,7 +1,7 @@
 # Bike Sharing Redistribution with Demand Forecasting
 
 ## Overview
-This project integrates **deep learning-based demand forecasting** with 
+This project integrates **bike demand forecasting** with 
 **vehicle routing optimization** to solve the bike-sharing redistribution problem.
 
 We combine:
