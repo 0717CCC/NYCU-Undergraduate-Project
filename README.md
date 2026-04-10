@@ -3,6 +3,7 @@
 ## Overview
 This project integrates **bike demand forecasting** with 
 **vehicle routing optimization** to solve the bike-sharing redistribution problem.
+<img width="1017" height="443" alt="image" src="https://github.com/user-attachments/assets/9645ac2e-5f67-4287-bac3-1d11a8a85358" />
 
 We combine:
 - LSTM / GRU for station demand prediction
