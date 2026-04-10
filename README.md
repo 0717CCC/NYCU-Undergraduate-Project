@@ -17,18 +17,15 @@ Achieved ~36% reduction in total cost compared to baseline.
 
 ## Problem Description
 
-Bike-sharing systems often suffer from **supply-demand imbalance**:
-- Some stations run out of bikes
-- Some stations are overloaded
+Modern bike-sharing systems frequently face supply-demand imbalances:
 
-Traditional approaches:
-- Only forecasting → cannot rebalance
-- Only routing → ignores future demand
+- Stockouts: Users cannot find a bike when needed.
+- Overloading: Users cannot return a bike because the station is full.
 
-Our Solution:
-We propose an **integrated framework**:
-1. Predict station demand (arrival & departure)
-2. Use predictions to optimize redistribution routes
+Our Integrated Framework:
+
+- Anticipate: Predict station demand (arrivals vs. departures) for the next time window.
+- Optimize: Generate redistribution routes that prioritize stations with the highest predicted urgency.
 
 ## Methodology 
 ### Stage 1: Demand Forecasting
@@ -58,7 +55,8 @@ Constraints:
 - Start/end at depot
 - Demand satisfaction
 
-Models used:
+Algorithm used:
+
 We use a **Genetic Algorithm (GA)** to solve this NP-hard problem.
 - Suitable for combinatorial optimization
 - Efficient for large-scale routing problems
